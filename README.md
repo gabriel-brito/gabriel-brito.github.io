@@ -1,5 +1,5 @@
-#Falando um pouco sobre mim mesmo.
+#Gabriel Santos - Desenvolvedor Front End
 
-Uma página básica sobre mim xD
+Falando um pouco sobre mim, um futuro mago da web.. ops, digo um futuro front end !
 
-P.S: Já estou efetuando as alterações no site! Daqui algum tempo sai a versão 'completa'!
+--> http://codepen.io/gabriel-brito/full/PbqNXg/ <---
