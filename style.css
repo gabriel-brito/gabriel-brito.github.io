@@ -1,0 +1,23 @@
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a {
+    color: red;
+    transition: .5s linear;
+}
+
+a:hover {
+    color: purple;
+}
