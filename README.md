@@ -1,5 +1,7 @@
 #Gabriel Santos - Desenvolvedor Front End
 
-Falando um pouco sobre mim, um futuro mago da web.. ops, quer dizer.. um futuro desenvolvedor front end !
+Hey, you! 
+I'm working on my personal website! just wait a little bit!
+It is gonna be legen - wait for it - dary!
 
 --> http://codepen.io/gabriel-brito/full/PbqNXg/ <---
