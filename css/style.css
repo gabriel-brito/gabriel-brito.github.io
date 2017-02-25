@@ -1,0 +1,63 @@
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: white;
+    background: url("https://www.ashercharles.com/wp-content/themes/v3/images/banner-main-large4.jpg");
+    background-size: cover;
+}
+header{
+	margin-top:10px;
+}
+
+.title-margin{
+	margin-bottom: 10px;
+}
+.subtitle-margin{
+	margin-bottom:15px;
+	font-size:1.5625em;
+	font-style:italic;
+}
+
+.nav-menu {
+	display:inline-block;
+	font-size: 1.125em;
+}
+	.nav-menu li {
+		display: inline;
+		padding: 4px;
+	}
+
+	.nav-menu a {
+		text-decoration: none;
+	}
+
+
+.about {
+	margin-top: 20px;
+}
+	.about h2 {
+		text-decoration: underline
+	}
+
+
+
+
+h1 {
+    font-size: 3.75em;
+}
+h2 {
+    font-size: 1.875em;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a {
+    color: red;
+    transition: .5s linear;
+}
+
+a:hover {
+    color: purple;
+}
