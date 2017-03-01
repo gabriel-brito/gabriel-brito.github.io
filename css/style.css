@@ -1,10 +1,30 @@
 body {
     font-family: 'Lato', sans-serif;
+    font-size: 100%;
     text-align: center;
     color: white;
     background: url("https://www.ashercharles.com/wp-content/themes/v3/images/banner-main-large4.jpg");
     background-size: cover;
 }
+
+/* patterns */
+h1 {
+    font-size: 3.75em;
+}
+h2 {
+    font-size: 1.875em;
+}
+h3 {
+    font-size: 20px;
+}
+.img-responsive {
+	max-width: 100%;
+	max-height: auto;
+}
+
+/* patterns end */
+
+
 header{
 	margin-top:10px;
 }
@@ -29,35 +49,35 @@ header{
 
 	.nav-menu a {
 		text-decoration: none;
+		color: white;
+		transition: .5s linear;
 	}
+		.nav-menu a:hover {
+			color: #e2dede;
+		}
 
 
 .about {
 	margin-top: 20px;
 }
 	.about h2 {
-		text-decoration: underline
+		text-decoration: none;
+		margin-top: -10px;
+		margin-bottom: 5px;
 	}
+#about {
+	text-align: justify;
+	margin: 5px 10px 20px;
 
-
-
-
-h1 {
-    font-size: 3.75em;
 }
-h2 {
-    font-size: 1.875em;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-a {
-    color: red;
-    transition: .5s linear;
-}
-
-a:hover {
-    color: purple;
-}
+	#about p {
+		padding-top: 10px;
+		text-indent:1em;
+	}
+	#about a {
+		color: #ffffff;
+		transition: .5s linear;
+	} 
+		#about a:hover {
+			color: #f24b4b;
+		}
