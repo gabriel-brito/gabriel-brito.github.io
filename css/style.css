@@ -13,13 +13,23 @@ h1 {
 }
 h2 {
     font-size: 1.875em;
+    margin-bottom: 15px;
 }
 h3 {
     font-size: 20px;
 }
 .img-responsive {
+	width: 400px;
 	max-width: 100%;
-	max-height: auto;
+	max-height: 250px;
+}
+figure {
+	margin-bottom: 15px;
+	border: 1px solid white;
+	border-radius: 3px;
+}
+figcaption{
+	margin: 4px;
 }
 
 /* patterns end */
@@ -81,3 +91,12 @@ header{
 		#about a:hover {
 			color: #f24b4b;
 		}
+
+#portfolio {
+	display: inline-block;
+	padding: 10px;
+}
+.link-port{
+	text-decoration: none;
+	color: white;
+}
