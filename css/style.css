@@ -3,7 +3,8 @@ body {
     font-size: 100%;
     text-align: center;
     color: white;
-    background: url("https://www.ashercharles.com/wp-content/themes/v3/images/banner-main-large4.jpg");
+   /* background: url("https://www.ashercharles.com/wp-content/themes/v3/images/banner-main-large4.jpg"); */
+   background-color: white;
     background-size: cover;
 }
 
@@ -50,7 +51,7 @@ header{
 
 .nav-menu {
 	display:inline-block;
-	font-size: 1.125em;
+	font-size: 1em;
 }
 	.nav-menu li {
 		display: inline;
@@ -66,8 +67,8 @@ header{
 			color: #e2dede;
 		}
 
-
-.about {
+/* Header End */
+.about{
 	margin-top: 20px;
 }
 	.about h2 {
@@ -75,7 +76,7 @@ header{
 		margin-top: -10px;
 		margin-bottom: 5px;
 	}
-#about {
+#about{
 	text-align: justify;
 	margin: 5px 10px 20px;
 
@@ -92,7 +93,7 @@ header{
 			color: #f24b4b;
 		}
 
-#portfolio {
+#portfolio{
 	display: inline-block;
 	padding: 10px;
 }
@@ -100,3 +101,12 @@ header{
 	text-decoration: none;
 	color: white;
 }
+/* About End */
+
+.habilidades{
+	display: inline-block;
+}
+.skills li{
+	padding-bottom: 5px;
+}
+/*Skills end*/
