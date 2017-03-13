@@ -3,8 +3,7 @@ body {
   font-size: 100%;
   text-align: center;
   color: white;
-  /* background: url("https://www.ashercharles.com/wp-content/themes/v3/images/banner-main-large4.jpg"); */
-  background-color: black;
+  background: black url("../img/simple-dark-background-1.jpg") no-repeat;
   background-size: cover; }
 
 /* patterns */
@@ -27,9 +26,8 @@ figure {
   margin-bottom: 15px;
   border: 1px solid white;
   border-radius: 3px; }
-
-figcaption {
-  margin: 4px; }
+  figure figcaption {
+    margin: 4px; }
 
 /* patterns end */
 header {
@@ -46,42 +44,35 @@ header {
 .nav-menu {
   display: inline-block;
   font-size: 1em; }
-
-.nav-menu li {
-  display: inline;
-  padding: 4px; }
-
-.nav-menu a {
-  text-decoration: none;
-  color: white;
-  transition: .5s linear; }
-
-.nav-menu a:hover {
-  color: #e2dede; }
+  .nav-menu li {
+    display: inline;
+    padding: 4px; }
+  .nav-menu a {
+    text-decoration: none;
+    color: white;
+    transition: .5s linear; }
+    .nav-menu a:hover {
+      color: #e2dede; }
 
 /* Header End */
 .about {
   margin-top: 20px; }
-
-.about h2 {
-  text-decoration: none;
-  margin-top: -10px;
-  margin-bottom: 5px; }
+  .about h2 {
+    text-decoration: none;
+    margin-top: -10px;
+    margin-bottom: 5px; }
 
 #about {
   text-align: justify;
   margin: 5px 10px 20px; }
-
-#about p {
-  padding-top: 10px;
-  text-indent: 1em; }
-
-#about a {
-  color: #ffffff;
-  transition: .5s linear; }
-
-#about a:hover {
-  color: #f24b4b; }
+  #about p {
+    padding-top: 10px;
+    text-indent: 1em; }
+  #about a {
+    color: #ffffff;
+    transition: .5s linear; }
+    #about a:hover {
+      color: #f24b4b; }
 
 #portfolio {
   display: inline-block;
@@ -99,5 +90,20 @@ header {
   padding-bottom: 5px; }
 
 /*Skills end*/
+/* footer */
+#contacts {
+  display: inline-block; }
+  #contacts ul {
+    display: inline-block; }
+    #contacts ul li {
+      display: inline; }
+      #contacts ul li img {
+        width: 48px;
+        height: 48px;
+        display: inline;
+        padding: 2px; }
+
+footer h4 {
+  margin-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */
