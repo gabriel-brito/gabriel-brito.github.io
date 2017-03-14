@@ -106,4 +106,16 @@ header {
 footer h4 {
   margin-top: 10px; }
 
+@media all and (min-width: 400px) {
+  .nav-menu {
+    font-size: 1.30em; }
+
+  .skills ul {
+    display: inline-block; }
+  .skills li {
+    padding-bottom: 5px;
+    display: inline;
+    padding: 5px;
+    line-height: 20px; } }
+
 /*# sourceMappingURL=style.css.map */
