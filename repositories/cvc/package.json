@@ -1,7 +1,7 @@
 {
-  "name": "hotels",
+  "name": "CVC Test",
   "version": "1.0.0",
-  "description": "Development of an hotels list",
+  "description": "CVC test to enter in CVC team!",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha __tests__/**.spec.js --require babel-register",
@@ -9,20 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabriel-brito/hotels.git"
+    "url": "git+https://github.com/gabriel-brito.github.io/tree/master/repositories/cvc"
   },
   "keywords": [
     "tdd",
-    "hotels",
+    "cvc",
     "api",
     "javascript"
   ],
   "author": "Gabriel Santos",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gabriel-brito/hotels/issues"
+    "url": "https://github.com/gabriel-brito.github.io/issues"
   },
-  "homepage": "https://github.com/gabriel-brito/hotels#readme",
+  "homepage": "https://github.com/gabriel-brito/gabriel-brito.github.io/issues",
   "devDependencies": {
     "autoprefixer": "^8.5.0",
     "autoprefixer-stylus": "^0.14.0",
