@@ -1,0 +1,179 @@
+.m-withdrawal
+  display block
+  width 100%
+  padding 10px
+  margin-bottom 30px
+  background-color $yellow
+  border-radius 4px
+
+  +above(small-desk)
+    max-width 300px
+    margin-right 30px
+    float left
+
+  .m-withdrawalForm
+    display block
+    width 100%
+    margin 0 auto
+
+    .m-withdrawalForm__inputWrapper
+    .m-withdrawal__economy
+      display block
+      margin 5px auto
+      width 100%
+      float left
+      
+      &:first-child
+        margin-top 0
+        
+      +between(tablet, small-desk)
+        width 48%
+        height 81px
+        margin-right 2%
+        
+        &:nth-child(2)
+          padding-top 34px
+        
+    .m-withdrawalForm__inputWrapper
+      span
+        display block
+        margin 5px 0
+        color $fontgold
+        font-weight 300
+        text-transform uppercase
+        font-size .75em
+        
+      input[type="date"]
+      input[type="text"]
+        display block
+        width 100%
+        padding 12px 9px
+        border 2px solid transparent
+        border-radius 4px
+        font-size .9375em
+        color $darkenblue
+        
+        &::placeholder
+          color $darkenblue
+          
+      input[type="checkbox"]
+        display inline-block
+        width 14px
+        height 14px
+        margin auto
+        cursor pointer
+        
+        &:after
+          display inline-block
+          content ''
+          width 14px
+          height 14px
+          border-radius 2px
+          background-color transparent
+        
+        &:checked
+          &:after
+            content '\2714'
+            background-color $fontblue
+            text-align center
+            color $white
+      
+      label
+        display inline-block
+        font-size .9375em
+        vertical-align top
+        color $labelblue
+        
+      .withdrawalForm__Variation
+        display block
+        height 45px
+        
+        input[type="date"]
+        input[type="text"]
+          display block
+          width 60%
+          height 100%
+          border-radius 4px 0 0 4px
+          float left
+          background-image url('./images/calendar-icon.png')
+          background-repeat no-repeat
+          background-size 20px
+          background-position 90% center
+          appearance none
+
+        select
+          display block
+          width 40%
+          height 100%
+          padding 8px
+          float left
+          border 0 
+          font-size .9375em
+          color $darkenblue
+          background-color $white
+          background-image url('./images/down-arrow.png')
+          background-repeat no-repeat
+          background-position 90% center
+          background-size 12px
+          appearance none
+          cursor pointer
+    
+    .m-withdrawal__economy
+      display inline-block
+      border 1px solid $green
+      float initial
+      background-color $green
+      font-weight 300
+
+      +between(tablet, small-desk)
+        height 57px
+        margin-top 15px
+      
+      h3 
+        display block
+        height 25px
+        padding 4px
+        color $white
+        text-transform uppercase
+        font-size .9375em
+      
+      .m-withdrawal__economyWrapper
+        width 100%
+        background-color $white
+        color $fontblue
+        font-size .875em
+        
+        +between(tablet, small-desk)
+          height 30px
+        
+        .m-withdrawal__economy-input
+          display inline-block
+          width 40%
+          margin 5px 0
+          font-size .9375em
+          
+          +above(tablet)
+            font-size 15px
+          
+          input 
+            width 13px
+            height 13px
+            margin 0 4px
+            margin-bottom 2px
+            vertical-align middle
+            cursor pointer
+            
+            &:after
+              display inline-block
+              content ''
+              width 13px
+              height 13px
+              border-radius 2px
+              background-color transparent
+            
+            &:checked
+              &:after
+                content '\2714'
+                background-color $fontblue
+                text-align center
+                color $white

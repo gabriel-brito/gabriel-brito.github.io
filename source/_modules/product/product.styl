@@ -1,0 +1,323 @@
+.m-productsSection
+  display inline-block
+  width 100%
+  margin 0 auto
+
+  +above(tablet)
+    width auto
+    float left
+// Just for section
+
+
+.m-product
+  display block
+  width 100%
+  position relative
+  margin 0 auto
+  margin-bottom 30px
+  border 1px solid $bordergrey
+  border-radius 4px
+  overflow hidden
+
+  +above(tablet)
+    max-width 840px
+//Just for wrapper
+  
+
+.m-productShape
+  display inline-block
+  width 100%
+  padding 0 5px
+  margin 0 auto
+
+  +above(tablet)
+    display block
+    width 80%
+    padding 0
+    max-height 400px
+    float left
+      
+  .m-productShape__image
+    display inline-block
+    width 100%
+    margin-bottom 10px
+    position relative
+
+    +above(tablet)
+      display block
+      width 35%
+      margin 0
+      float left
+    
+    img 
+      display block
+      width 100%
+      
+    .discount
+      display block
+      width 65px
+      padding 5px
+      position absolute
+      left -5px
+      top 0
+      background-color $green
+      color white
+      text-align center
+      font-size .875em
+      text-transform uppercase
+      font-weight 300
+      
+      +above(tablet)
+        left 0
+
+      span 
+        display block
+        margin 2px
+        font-size 1em
+        font-weight 600
+    
+    .rent-icon
+      display block
+      position absolute
+      width 57px
+      top 5%
+      right 3%
+      
+  .m-productInfo
+    display block
+    width 100%
+    position relative
+    margin-bottom 10px
+
+    +above(tablet)
+      display inline-block
+      width 63%
+      padding-top 10px
+      margin-left 1%
+    
+    .title
+      display block
+      margin 5px 0
+      font-size 22px
+      text-decoration none
+      font-weight 400
+      text-transform uppercase
+      color $darkenblue
+      
+    .favorite 
+      display block
+      position absolute
+      right 5px
+      bottom 0
+      transition .2s ease
+      filter invert(55%)
+      
+      +above(tablet)
+        top 12px
+        right 5%
+        bottom auto
+        width 32px
+      
+    .m-productInfo__mainInfo
+      display block
+      margin 2px 0
+      text-align left
+      font-weight 400
+      text-transform uppercase
+      font-size .75em
+      
+      +above(tablet)
+        font-size .9375em
+
+      &:nth-child(3)
+        margin-bottom 10px
+
+    .m-productInfo__list
+      display block
+      width 100%
+      
+      .m-productInfo__listItem
+        display block
+        margin 10px 0
+        font-weight 300
+        
+        &:before
+          display inline-block
+          content '-'
+          margin-right 2px
+          
+    .m-productInfo__detailTrigger
+      display inline-block
+      width 100%
+      margin 0 auto
+      vertical-align middle
+      color $triggerblue
+      text-decoration none
+      font-weight 300
+      font-size 1em
+      text-align center
+      
+      +above(tablet)
+        text-align left
+
+      i 
+        display inline-block
+        width 13px
+        margin-top 1px
+        margin-left 5px
+        vertical-align top
+        
+
+.m-productSpecifications
+  display none
+  width calc(100% + 10px)
+  padding 15px 5px 10px
+  position relative
+  margin-top 15px
+  margin-left -5px
+  border-top 1px solid $bordergrey
+  text-align left
+  font-weight 300
+  font-size 16px
+  line-height 19px
+
+  +above(tablet)
+    width 100%
+    margin-left 0
+  
+  &:before
+    display block
+    content ''
+    position absolute
+    width 20px
+    height 20px
+    top -11px
+    left 50%
+    margin-left -10px
+    border-top 1px solid $bordergrey
+    border-right 1px solid $bordergrey
+    background-color white 
+    z-index 1
+    transform rotate(-45deg)
+
+.m-productDetails
+  display inline-block
+  width 100%
+  padding 0 5px
+  border-top 1px solid $bordergrey
+
+  .m-productDetails__list
+    display inline-block
+    width 100%
+    border-bottom 1px solid $bordergrey
+
+    +above(tablet)
+      &:first-child
+        width 35%
+
+      display block
+      width 29%
+      float left
+      border-bottom 0
+    
+    &:last-child
+      border-bottom 0
+    
+  .m-productDetails__listItem
+    display block
+    width 100%
+    margin 10px auto
+    
+    .icon 
+      display inline-block
+      margin 0 5px
+      
+    a 
+      text-decoration none
+      color $mediumblue
+      font-size 1em
+      
+.m-productFooter
+  display block
+  width calc(100% + 10px)
+  padding 5px
+  margin-left -5px
+  background-color $yellow
+
+  +above(tablet)
+    width 100%
+    max-width 168px
+    height 100%
+    margin 0 auto
+    top 0
+    right 0
+    position absolute
+  
+  .m-productFooterWrapper
+    display block
+    width 130px
+    margin 0 auto
+    text-align center
+    color $fontgold
+
+    +above(tablet)
+      margin-top 20px
+
+    > *
+      display block
+      margin 10px 0
+      position relative
+      font-size .9375em
+
+    h3 
+      margin-bottom 15px
+      text-transform uppercase
+      font-size 1em
+      
+    .from 
+      &:before
+        display block
+        content ''
+        width 70px
+        height 1px
+        top 8px
+        left 50%
+        margin-left -35px
+        position absolute
+        background-color $red
+        transform rotate(-6deg)
+        
+    .newPrice
+      margin -5px 0
+      
+      span
+        margin 0
+        color $mediumblue
+        font-weight 600
+        font-size 1.25em
+        
+    .payment-condition
+      color $mediumblue
+      font-size 1.0625em
+      
+    .c-button
+      line-height 47px
+      text-decoration none
+      font-size 19px
+      font-weight 400
+
+      +above(tablet)
+        &:before
+          display block
+          content ''
+          width 20px
+          height 20px
+          top 50%
+          left -30px
+          z-index 1
+          position absolute
+          transform translateY(-50%) rotate(-45deg)
+          background-color white
+        
+    .tax-information
+      font-size .875em
