@@ -1,0 +1,19 @@
+# Site settings
+title: Gabriel-Santos
+description: Um desenvolvedor apaixonado pelo Front-End! Falando um pouco sobre minhas experiências e projetos! HTML, CSS, JavaScript <3
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+url: "gabriel-brito.github.io"
+
+# User settings
+username: Gabriel Santos
+user_description: Um desenvolvedor apaixonado pelo Front-End! 
+user_title: Desenvolvedor Front-End
+email: mfkrgabriel@gmail.com
+twitter_username: mr_gabrielbp
+github_username:  gabriel-brito
+
+# Google-analytics
+google-analytics:
+  id: "UA-97653882-1"
+
+exclude: ['package.json', 'src' , 'node_modules']
