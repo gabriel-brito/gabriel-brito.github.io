@@ -6,7 +6,8 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha __tests__/**.spec.js --require babel-register",
     "test:watch": "./node_modules/.bin/mocha __tests__/**.spec.js --require babel-register --watch",
-    "build": "rimraf public && gulp build"
+    "build": "rimraf public && gulp build",
+    "gulp": "gulp build && gulp"
   },
   "repository": {
     "type": "git",
