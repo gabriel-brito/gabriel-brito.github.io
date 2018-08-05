@@ -52,12 +52,12 @@ export default class Fetch {
               <a href="javascript:void(0)" class="m-productInfo__detailTrigger">
                 Mais detalhes
                 <i>
-                  <img src="public/images/plus-icon.png" alt="plus icon">
+                  <img src="/public/images/plus-icon.png" alt="plus icon">
                 </i>
               </a>
 
               <a class="favorite" href="javascript:void(0)">
-                <img src="public/images/red-heart-icon.png" alt="Favorite Heart">
+                <img src="/public/images/red-heart-icon.png" alt="Favorite Heart">
               </a>        
             </div>
 
@@ -70,14 +70,14 @@ export default class Fetch {
                 
                 <li class="m-productDetails__listItem">
                   <i class="icon">
-                    <img src="public/images/car-icon.png" alt="car icon">
+                    <img src="/public/images/car-icon.png" alt="car icon">
                   </i>
                   <a href="javascript:void(0)"><span>${data.doors} </span>portas</a>
                 </li>
 
                 <li class="m-productDetails__listItem">
                   <i class="icon">
-                    <img src="public/images/air-conditioner-icon.png" alt="air conditioner icon">
+                    <img src="/public/images/air-conditioner-icon.png" alt="air conditioner icon">
                   </i>
                   <a href="javascript:void(0)">Ar-condicionado</a>
                 </li>
@@ -86,7 +86,7 @@ export default class Fetch {
                   
                   ? `<li class="m-productDetails__listItem">
                       <i class="icon">
-                        <img src="public/images/power-glass-icon.png" alt="power glass icon">
+                        <img src="/public/images/power-glass-icon.png" alt="power glass icon">
                       </i>
                       <a href="javascript:void(0)">Vidro elétrico</a>   
                     </li>`: '' 
@@ -97,14 +97,14 @@ export default class Fetch {
 
                 <li class="m-productDetails__listItem">
                   <i class="icon">
-                    <img src="public/images/user-icon.png" alt="user icon">
+                    <img src="/public/images/user-icon.png" alt="user icon">
                   </i>
                   <a href="javascript:void(0)"><span>${data.capacity} </span>pessoas</a>
                 </li>
 
                 <li class="m-productDetails__listItem">
                   <i class="icon">
-                    <img src="public/images/automatic-icon.png" alt="automatic icon">
+                    <img src="/public/images/automatic-icon.png" alt="automatic icon">
                   </i>
                   <a href="javascript:void(0)">Automático</a>
                 </li>
@@ -112,7 +112,7 @@ export default class Fetch {
                 ${data.cdOrUsb 
                   ? `<li class="m-productDetails__listItem">
                       <i class="icon">
-                        <img src="public/images/usb.png" alt="cd or usb icon">
+                        <img src="/public/images/usb.png" alt="cd or usb icon">
                       </i>
                       <a href="javascript:void(0)">CD ou USB</a>
                     </li>
@@ -123,7 +123,7 @@ export default class Fetch {
               <ul class="m-productDetails__list">
                 <li class="m-productDetails__listItem">
                   <i class="icon">
-                    <img src="public/images/bag-icon.png" alt="bag icon">
+                    <img src="/public/images/bag-icon.png" alt="bag icon">
                   </i>
                   <a href="javascript:void(0)"><span>${data.bags} </span>malas</a>
                 </li>
@@ -131,7 +131,7 @@ export default class Fetch {
                 ${data.hidraulic
                   ? `<li class="m-productDetails__listItem">
                       <i class="icon">
-                        <img src="public/images/wheel-icon.png" alt="wheel icon">
+                        <img src="/public/images/wheel-icon.png" alt="wheel icon">
                       </i>
                       <a href="javascript:void(0)">Direção hidráulica</a>
                     </li>`  : ''
@@ -140,7 +140,7 @@ export default class Fetch {
                 ${data.radio
                   ? `<li class="m-productDetails__listItem">
                       <i class="icon">
-                        <img src="public/images/radio-icon.png" alt="radio icon">
+                        <img src="/public/images/radio-icon.png" alt="radio icon">
                       </i>
                       <a href="javascript:void(0)">Radio AM/FM</a>
                     </li>` : ''
